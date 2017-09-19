@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
+
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.9/dist/aframe-particle-system-component.min.js"></script>
+
+    <script src="https://unpkg.com/aframe-raytrace-component/dist/aframe-raytrace-component.min.js"></script>
+
+
+  </head>
+
+
+  <body>
+    <a-scene>
+      //setting environment up
+
+      <a-entity position="0 2.25 -15" particle-system="preset: dust; size:2; particleCount:3000"></a-entity>
+
+
+       <a-entity environment="preset: osiris ; dressing:pyramids ; dressingAmount:30; groundColor:#d9dce0; shadowSize:50"></a-entity>
+
+
+
+  
+
+    </a-scene>
+  </body>
+</html>
