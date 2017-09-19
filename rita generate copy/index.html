@@ -1,0 +1,45 @@
+<html>
+  <script src="js/p5.min.js"></script>
+  <script src="js/rita-full.min.js"></script>
+  <script src="js/arpaToIPA.js"></script>
+  <script src="js/yaml.min.js"></script>
+
+  <script>
+
+
+  var font, grammar, lines, yaml;
+
+  function preload() {
+
+    font = loadFont('fonts/AdobeSongStd-Light.otf');
+    yaml = loadStrings('data/haiku.yaml');
+  }
+
+  function setup() {
+
+    createCanvas(windowWidth, windowHeight);
+    textFont(font, 30);
+    textAlign(CENTER);
+    grammar = new RiGrammar(yaml.join('\n'));
+    lines = ["generate", "your", "motto of the day"];
+  }
+
+  function draw() {
+
+    background(255, 242, 150);
+    text(lines[0], width / 2, 175);
+    text(lines[1], width / 2, 210);
+    text(lines[2], width / 2, 245);
+  }
+
+  function mouseReleased() {
+
+    var result = grammar.expand();
+    var haiku = result.split("%");
+    for (var i = 0; i < lines.length; i++)
+      lines[i] = haiku[i];
+  }
+
+
+  </script>
+</html>

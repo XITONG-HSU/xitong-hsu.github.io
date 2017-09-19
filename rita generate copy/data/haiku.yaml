@@ -1,0 +1,9 @@
+---
+<start>: <5-line> % <7-line> % <5-line>
+<5-line>: <1> <4> | <1> <1> <1> | <2> <3> | <2> <2> <1> | <2> <1> <2> | <2> <1> <1> <1> | <3> <2> | <3> <1> <1> | <4> <1> | <1> <4> <2>
+<7-line>: <1> <1> <5-line> | <2> <5-line> | <5-line> <1> <1> | <5-line> <2>
+<1>: red | white | black | pink | dawns  | olive | hurricane | water | my | your | moon | sky | blue | dragon | yellow | day | buffalo | panda | koala | shiba dog | zebra | unicorn | ape |elephant
+<2>: is so cute | are amazing | looks like a unicorn | smells so sweet | tastes like strawberry juice
+<3>: sunrises | samurai | floating fog | fishing boats | haze | so many pink sakura | day and night | rain | sad snow fall
+<4>: mango | banana | apple | dragon fruit |  pear | cherries | strawberry | grape | peach | orange | pineapple | avocado | cherry tomato | lychee
+<5>: resolutional | in New York city again | towards itp classroom | to the skyline | out over this cground | in the spring wind
