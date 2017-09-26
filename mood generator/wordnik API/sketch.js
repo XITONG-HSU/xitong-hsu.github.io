@@ -38,7 +38,7 @@ function askWordnik() {
 
 function gotData(data) {
   if (data.length === 0) {
-    createP('no related words');
+    createP('😩');
   } else {
     let index1 = floor(random(0, data.length));
     let index2 = floor(random(0, data[index1].words.length));
