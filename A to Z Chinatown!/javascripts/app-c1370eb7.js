@@ -5283,7 +5283,7 @@
           value: function(e) {
             e.preventDefault(), ga("send", "event", "share", "share_facebook_" + this.props.previousLetter.key, "Share " + this.props.previousLetter.key + " to Facebook");
             var t = this.props.previousLetter.key.toUpperCase() + " is for " + this.props.previousLetter.title,
-              n = "The A-Z of London according to citizenM";
+              n = "The A-Z of Chinatown NYC";
             console.log("https://citizenm.s3.amazonaws.com/assets/stills/" + this.props.previousLetter.key + ".jpg"), FB.ui({
               method: "feed",
               link: "http://citizenm.com/azoflondon",
@@ -5298,7 +5298,7 @@
           value: function(e) {
             e.preventDefault();
             var t = "http://citizenm.com/azoflondon",
-              n = this.props.previousLetter.key.toUpperCase() + " is for " + this.props.previousLetter.title + " \u2014 The A-Z of London according to @citizenM \u2014 See them all at " + t + " #AZofLondon";
+              n = this.props.previousLetter.key.toUpperCase() + " is for " + this.props.previousLetter.title + " \u2014 The A-Z of Chinatown \u2014 See them all at " + t + " #AZofChinatownNYC";
             n = encodeURIComponent(n);
             var r = "https://twitter.com/intent/tweet?text=" + n;
             ga("send", "event", "share", "share_twitter_" + this.props.previousLetter.key, "Share " + this.props.previousLetter.key + " to Twitter"), window.open(r, "twShareWindow", "height=450, width=550, top=100, left=100, toolbar=0, location=0, menubar=0, directories=0, scrollbars=0")
