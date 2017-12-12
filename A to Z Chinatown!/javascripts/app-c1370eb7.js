@@ -5297,7 +5297,7 @@
           key: "_handleTwitterClick",
           value: function(e) {
             e.preventDefault();
-            var t = "http://citizenm.com/azoflondon",
+            var t = "https://xitong-hsu.github.io/A%20to%20Z%20Chinatown!/index.html",
               n = this.props.previousLetter.key.toUpperCase() + " is for " + this.props.previousLetter.title + " \u2014 The A-Z of Chinatown \u2014 See them all at " + t + " #AZofChinatownNYC";
             n = encodeURIComponent(n);
             var r = "https://twitter.com/intent/tweet?text=" + n;
