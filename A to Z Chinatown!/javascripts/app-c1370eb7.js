@@ -1,4 +1,4 @@
-"div",{className:"landing__heading"},e.createElement("p",{className:"hidden"}! function(e) {
+! function(e) {
   function t(r) {
     if (n[r]) return n[r].exports;
     var o = n[r] = {
