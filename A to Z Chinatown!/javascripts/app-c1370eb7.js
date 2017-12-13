@@ -1,4 +1,4 @@
-! function(e) {
+"div",{className:"landing__heading"},e.createElement("p",{className:"hidden"}! function(e) {
   function t(r) {
     if (n[r]) return n[r].exports;
     var o = n[r] = {
@@ -5110,8 +5110,8 @@
               className: "landing__heading"
             }, e.createElement("p", {
               className: "hidden"
-            }, "The A-Z of ChinaTown"), e.createElement("img", {
-            }), e.createElement("img", {
+            }, "The A-Z of ChinaTown"), e.createElement("img", {src:"/assets/heading-a.png"} ),
+             e.createElement("img", {
               src: "/assets/pigeon-4f68af0f.gif",
               className: "landing__heading__pigeon"
             })), n, e.createElement(p["default"], {
