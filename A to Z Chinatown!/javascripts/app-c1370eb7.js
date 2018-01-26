@@ -4533,7 +4533,7 @@
             colour: "#ffffff",
             textColour: "#4286f4",
             title: "wonton"
-            
+
           }, {
             key: "e",
             keyCode: 69,
@@ -5026,7 +5026,7 @@
                 onClick: this.props.handleShareClick,
                 ref: "shareBtn"
               }, "Share the letter ", this.props.previousLetter.key.toUpperCase()) : null,
-              r = this._isTouchDevice() ? "Tap any letter" : "Let's Meet China Town",
+              r = this._isTouchDevice() ? "Tap any letter" : "Tap And Hold Any Keyboard Letter, Meet The Chinatown NYC",
               o = "0" != this.props.activeLetter.key && this._isTouchDevice() ? null : e.createElement("p", {
                 className: "keyboard__instructions"
               }, r);
@@ -5112,7 +5112,7 @@
               className: "hidden"
             }, "The A-Z of ChinaTown"), e.createElement("img", {src:"/assets/heading-a.png"} ),
              e.createElement("img", {
-              src: "/assets/pigeon-4f68af0f.gif",
+              src: "/assets/lantern.gif",
               className: "landing__heading__pigeon"
             })), n, e.createElement(p["default"], {
               activeLetter: this.props.activeLetter,
@@ -5125,7 +5125,7 @@
               className: "footer"},
 							e.createElement("div", {
               className: "footer__left"
-              }, 
+              },
 						//e.createElement("a", {
             //    href: "//www.citizenm.com/destinations/london/london-bankside-hotel",
             //    target: "_blank"
@@ -5138,14 +5138,14 @@
             //   href: "//www.citizenm.com/destinations/london/tower-of-london-hotel",
             //   target: "_blank"
             // }, "Tower of London")
-            ), 
+            ),
             //   e.createElement("div", {
             //   className: "footer__right"
             // }, e.createElement("a", {
             //   className: "footer__brand",
             //   href: "//citizenm.com/destinations/london",
             //   target: "_blank"
-            // }, 
+            // },
             e.createElement("p", {
               className: "hidden"
             }, "Citizen M"),
