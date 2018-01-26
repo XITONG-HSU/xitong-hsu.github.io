@@ -4637,7 +4637,7 @@
             image: "g.jpg",
             colour: "#ffffff",
             textColour: "#4286f4",
-            title: "grogeous lady love scallions"
+            title: "genius of mathematics"
           }, {
             key: "h",
             keyCode: 72,
